@@ -16,7 +16,8 @@
 		9F2CA8F524B52B1700C70660 /* TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA8F424B52B1700C70660 /* TravelTests.swift */; };
 		9F2CA90024B52B1700C70660 /* TravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA8FF24B52B1700C70660 /* TravelUITests.swift */; };
 		9F2CA90F24B52C2700C70660 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA90E24B52C2700C70660 /* DistanceCalculator.swift */; };
-		9F2CA91024B52C2700C70660 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA90E24B52C2700C70660 /* DistanceCalculator.swift */; };
+		9F2CA91224B534A000C70660 /* DistanceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA91124B534A000C70660 /* DistanceCalculatorTests.swift */; };
+		9F2CA91324B535C700C70660 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA90E24B52C2700C70660 /* DistanceCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9F2CA8FF24B52B1700C70660 /* TravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelUITests.swift; sourceTree = "<group>"; };
 		9F2CA90124B52B1700C70660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2CA90E24B52C2700C70660 /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
+		9F2CA91124B534A000C70660 /* DistanceCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				9F2CA8F424B52B1700C70660 /* TravelTests.swift */,
+				9F2CA91124B534A000C70660 /* DistanceCalculatorTests.swift */,
 				9F2CA8F624B52B1700C70660 /* Info.plist */,
 			);
 			path = TravelTests;
@@ -290,7 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2CA91024B52C2700C70660 /* DistanceCalculator.swift in Sources */,
+				9F2CA91324B535C700C70660 /* DistanceCalculator.swift in Sources */,
+				9F2CA91224B534A000C70660 /* DistanceCalculatorTests.swift in Sources */,
 				9F2CA8F524B52B1700C70660 /* TravelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
